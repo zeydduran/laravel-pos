@@ -16,7 +16,7 @@ return [
     'banks'         => [
         'akbank'    => [
             'name'  => 'AKBANK T.A.S.',
-            'class' => Mews\Pos\Gateways\EstPos::class,
+            'class' => Pos\Gateways\EstPos::class,
             'urls'  => [
                 'production'    => 'https://www.sanalakpos.com/fim/api',
                 'test'          => 'https://entegrasyon.asseco-see.com.tr/fim/api',
@@ -28,7 +28,7 @@ return [
         ],
         'ziraat'    => [
             'name'  => 'Ziraat Bankası',
-            'class' => Mews\Pos\Gateways\EstPos::class,
+            'class' => Pos\Gateways\EstPos::class,
             'urls'  => [
                 'production'    => 'https://sanalpos2.ziraatbank.com.tr/fim/api',
                 'test'          => 'https://entegrasyon.asseco-see.com.tr/fim/api',
@@ -40,7 +40,7 @@ return [
         ],
         'finansbank'    => [
             'name'  => 'QNB Finansbank',
-            'class' => Mews\Pos\Gateways\EstPos::class,
+            'class' => Pos\Gateways\EstPos::class,
             'urls'  => [
                 'production'    => 'https://www.fbwebpos.com/fim/api',
                 'test'          => 'https://entegrasyon.asseco-see.com.tr/fim/api',
@@ -52,7 +52,7 @@ return [
         ],
         'halkbank'    => [
             'name'  => 'Halkbank',
-            'class' => Mews\Pos\Gateways\EstPos::class,
+            'class' => Pos\Gateways\EstPos::class,
             'urls'  => [
                 'production'    => 'https://sanalpos.halkbank.com.tr/fim/api',
                 'test'          => 'https://entegrasyon.asseco-see.com.tr/fim/api',
@@ -64,7 +64,7 @@ return [
         ],
         'teb'    => [
             'name'  => 'TEB',
-            'class' => Mews\Pos\Gateways\EstPos::class,
+            'class' => Pos\Gateways\EstPos::class,
             'urls'  => [
                 'production'    => 'https://sanalpos.teb.com.tr/fim/api',
                 'test'          => 'https://entegrasyon.asseco-see.com.tr/fim/api',
@@ -76,7 +76,7 @@ return [
         ],
         'isbank'    => [
             'name'  => 'İşbank',
-            'class' => Mews\Pos\Gateways\EstPos::class,
+            'class' => Pos\Gateways\EstPos::class,
             'urls'  => [
                 'production'    => 'https://sanalpos.isbank.com.tr/fim/api',
                 'test'          => 'https://entegrasyon.asseco-see.com.tr/fim/api',
@@ -88,7 +88,7 @@ return [
         ],
         'yapikredi' => [
             'name'  => 'Yapıkredi',
-            'class' => Mews\Pos\Gateways\PosNet::class,
+            'class' => Pos\Gateways\PosNet::class,
             'urls'  => [
                 'production'    => 'https://posnet.yapikredi.com.tr/PosnetWebService/XML',
                 'test'          => 'https://setmpos.ykb.com/PosnetWebService/XML',
@@ -100,7 +100,7 @@ return [
         ],
         'garanti' => [
             'name'  => 'Garanti',
-            'class' => Mews\Pos\Gateways\GarantiPos::class,
+            'class' => Pos\Gateways\GarantiPos::class,
             'urls'  => [
                 'production'    => 'https://sanalposprov.garanti.com.tr/VPServlet',
                 'test'          => 'https://sanalposprovtest.garanti.com.tr/VPServlet',
@@ -112,7 +112,7 @@ return [
         ],
         'qnbfinansbank-payfor' => [
             'name'  => 'QNBFinansbank-PayFor',
-            'class' => Mews\Pos\Gateways\PayForPos::class,
+            'class' => Pos\Gateways\PayForPos::class,
             'urls'  => [
                 'production'    => 'https://vpos.qnbfinansbank.com/Gateway/XMLGate.aspx',
                 'test'          => 'https://vpostest.qnbfinansbank.com/Gateway/XmlGate.aspx',
@@ -128,7 +128,7 @@ return [
         ],
         'vakifbank' => [
             'name'  => 'VakifBank-VPOS',
-            'class' => Mews\Pos\Gateways\VakifBankPos::class,
+            'class' => Pos\Gateways\VakifBankPos::class,
             'urls'  => [
                 'production'    => 'https://onlineodeme.vakifbank.com.tr:4443/VposService/v3/Vposreq.aspx',
                 'test'          => 'https://onlineodemetest.vakifbank.com.tr:4443/VposService/v3/Vposreq.aspx',

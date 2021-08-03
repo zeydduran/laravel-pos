@@ -7,6 +7,6 @@ if ( ! function_exists('laravel_pos'))
      */
     function laravel_pos()
     {
-        return Mews\LaravelPos\Facades\LaravelPos::instance();
+        return LaravelPos\Facades\LaravelPos::instance();
     }
 }

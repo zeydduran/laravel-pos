@@ -1,18 +1,18 @@
 <?php
 
-namespace Mews\LaravelPos;
+namespace LaravelPos;
 
 use Illuminate\Config\Repository;
-use Mews\LaravelPos\Factory\AccountFactory;
-use Mews\LaravelPos\Factory\CardFactory;
-use Mews\Pos\Exceptions\BankClassNullException;
-use Mews\Pos\Exceptions\BankNotFoundException;
-use Mews\Pos\Factory\PosFactory;
-use Mews\Pos\PosInterface;
+use LaravelPos\Factory\AccountFactory;
+use LaravelPos\Factory\CardFactory;
+use Pos\Exceptions\BankClassNullException;
+use Pos\Exceptions\BankNotFoundException;
+use Pos\Factory\PosFactory;
+use Pos\PosInterface;
 
 /**
  * Class LaravelPos
- * @package Mews\LaravelPos
+ * @package LaravelPos
  */
 class LaravelPos
 {
@@ -134,7 +134,7 @@ class LaravelPos
      *
      * @return $this
      * @throws \GuzzleHttp\Exception\GuzzleException
-     * @throws \Mews\Pos\Exceptions\UnsupportedPaymentModelException
+     * @throws \Pos\Exceptions\UnsupportedPaymentModelException
      */
     public function payment(array $card = null)
     {

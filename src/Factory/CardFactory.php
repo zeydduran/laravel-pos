@@ -1,15 +1,15 @@
 <?php
 
 
-namespace Mews\LaravelPos\Factory;
+namespace LaravelPos\Factory;
 
 
-use Mews\Pos\Entity\Card\CreditCardEstPos;
-use Mews\Pos\Entity\Card\CreditCardGarantiPos;
-use Mews\Pos\Entity\Card\CreditCardPayFor;
-use Mews\Pos\Entity\Card\CreditCardPosNet;
-use Mews\Pos\Entity\Card\CreditCardVakifBank;
-use Mews\Pos\Exceptions\BankNotFoundException;
+use Pos\Entity\Card\CreditCardEstPos;
+use Pos\Entity\Card\CreditCardGarantiPos;
+use Pos\Entity\Card\CreditCardPayFor;
+use Pos\Entity\Card\CreditCardPosNet;
+use Pos\Entity\Card\CreditCardVakifBank;
+use Pos\Exceptions\BankNotFoundException;
 
 class CardFactory
 {

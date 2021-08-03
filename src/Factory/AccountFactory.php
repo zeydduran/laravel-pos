@@ -1,15 +1,15 @@
 <?php
 
 
-namespace Mews\LaravelPos\Factory;
+namespace LaravelPos\Factory;
 
 
-use Mews\Pos\Entity\Account\EstPosAccount;
-use Mews\Pos\Entity\Account\GarantiPosAccount;
-use Mews\Pos\Entity\Account\PayForAccount;
-use Mews\Pos\Entity\Account\PosNetAccount;
-use Mews\Pos\Entity\Account\VakifBankAccount;
-use Mews\Pos\Exceptions\BankNotFoundException;
+use Pos\Entity\Account\EstPosAccount;
+use Pos\Entity\Account\GarantiPosAccount;
+use Pos\Entity\Account\PayForAccount;
+use Pos\Entity\Account\PosNetAccount;
+use Pos\Entity\Account\VakifBankAccount;
+use Pos\Exceptions\BankNotFoundException;
 
 class AccountFactory
 {

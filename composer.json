@@ -35,7 +35,7 @@
 			"tests/TestCase.php"
 		],
 		"psr-4": {
-			"Mews\\Test\\": "tests/"
+			"\Test\\": "tests/"
 		}
 	},
 	"minimum-stability": "stable"

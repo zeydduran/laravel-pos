@@ -1,12 +1,12 @@
 <?php
 
-namespace Mews\LaravelPos\Facades;
+namespace LaravelPos\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
  * Class LaravelPos
- * @package Mews\LaravelPos\Facades
+ * @package LaravelPos\Facades
  */
 class LaravelPos extends Facade {
 
