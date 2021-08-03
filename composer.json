@@ -24,7 +24,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Mews\\LaravelPos\\": "src/"
+			"LaravelPos\\": "src/"
 		},
 		"files": [
 			"src/helpers.php"
